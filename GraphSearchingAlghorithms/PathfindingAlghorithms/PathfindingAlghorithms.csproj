@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alghorithms\AlghorithmResult\AlghorithmCalculationResult.cs" />
+    <Compile Include="Alghorithms\AlghorithmResult\AStarResult.cs" />
     <Compile Include="Alghorithms\AlghorithmResult\BFSResult.cs" />
     <Compile Include="Alghorithms\AlghorithmResult\DijkstraResult.cs" />
+    <Compile Include="Alghorithms\AStar.cs" />
     <Compile Include="Alghorithms\DataObjects\AlgorithmCity.cs" />
     <Compile Include="Alghorithms\DataObjects\BFSDistanceVertex.cs" />
     <Compile Include="Alghorithms\Dijkstra.cs" />
