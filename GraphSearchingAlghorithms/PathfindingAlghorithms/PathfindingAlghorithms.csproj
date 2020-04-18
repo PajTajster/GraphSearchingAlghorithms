@@ -43,7 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alghorithms\AlghorithmResult\AlghorithmCalculationResult.cs" />
+    <Compile Include="Alghorithms\AlghorithmResult\BFSResult.cs" />
+    <Compile Include="Alghorithms\DataObjects\BFSDistanceVertex.cs" />
     <Compile Include="Alghorithms\Interface\IAlghorithm.cs" />
+    <Compile Include="Alghorithms\ModifiedBFS.cs" />
     <Compile Include="Common\CityGeoCooridnates.cs" />
     <Compile Include="Common\ConnectedCityWithDistance.cs" />
     <Compile Include="FileLoader\FileLoader.cs" />
@@ -54,8 +57,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Alghorithms\DataObjects\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
