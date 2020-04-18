@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using GraphSearchingAlghorithmsGUI.Enums;
+using PathfindingAlghorithms.FileLoader;
+using PathfindingAlghorithms.Alghorithms.Interface;
+using PathfindingAlghorithms.Alghorithms;
 
 namespace GraphSearchingAlghorithmsGUI
 {
