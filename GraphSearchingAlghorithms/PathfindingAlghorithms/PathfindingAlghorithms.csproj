@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\CityGeoCooridnates.cs" />
+    <Compile Include="Common\ConnectedCityWithDistance.cs" />
+    <Compile Include="FileLoader\FileLoader.cs" />
+    <Compile Include="FileLoader\FileLoaderResult.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
