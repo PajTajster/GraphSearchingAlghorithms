@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Alghorithms\AlghorithmResult\AlghorithmCalculationResult.cs" />
     <Compile Include="Alghorithms\AlghorithmResult\BFSResult.cs" />
+    <Compile Include="Alghorithms\AlghorithmResult\DijkstraResult.cs" />
+    <Compile Include="Alghorithms\DataObjects\AlgorithmCity.cs" />
     <Compile Include="Alghorithms\DataObjects\BFSDistanceVertex.cs" />
+    <Compile Include="Alghorithms\Dijkstra.cs" />
     <Compile Include="Alghorithms\Interface\IAlghorithm.cs" />
     <Compile Include="Alghorithms\ModifiedBFS.cs" />
     <Compile Include="Common\CityGeoCooridnates.cs" />
